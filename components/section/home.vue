@@ -33,6 +33,7 @@
                 Career
               </button>
               <button
+                @click="openModal"
                 class="text-pink-500 border border-pink-500 hover:bg-pink-500 hover:text-white active:bg-pink-600 font-bold uppercase text-sm px-6 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                 type="button"
               >
@@ -58,11 +59,12 @@
         <img class="absolute right-0 bottom-0 h-[200px] w-[400px]" src="asset/section-one/town.png"/>
       </div>
     </div>
+    <s-about v-show="showModal" @close-modal="showModal = false"></s-about>
   </div>
 </template>
 
-<script>
-export default {}
+<script lang="ts">
+export { default } from './home.controller'
 </script>
 
 <style scoped>
