@@ -1,4 +1,5 @@
 # porto
+[![Netlify Status](https://api.netlify.com/api/v1/badges/db4b72b0-1b50-4019-8e7d-3160b37b9d4e/deploy-status)](https://app.netlify.com/sites/deluxe-duckanoo-6b8b79/deploys)
 
 ## Build Setup
 
