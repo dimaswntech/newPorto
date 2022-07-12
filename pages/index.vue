@@ -1,11 +1,11 @@
 <template>
-  <Tutorial />
+  <div>
+<!--    <s-navbar></s-navbar>-->
+    <s-home></s-home>
+<!--    <s-section-two></s-section-two>-->
+  </div>
 </template>
-
 <script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({
-  name: 'IndexPage',
-})
+export { default } from './homepage.controller'
 </script>
+

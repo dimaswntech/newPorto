@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.item {
+  @apply
+  bg-white
+    text-[#242424]
+    p-2
+  text-xl font-bold
+  flex flex-col content-center justify-items-start
+  rounded
+  overflow-hidden
+}
